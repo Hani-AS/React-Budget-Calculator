@@ -7,6 +7,7 @@ export const Form = ({
   handleCharge,
   handleAmount,
   handleSubmit,
+  edit,
 }) => {
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
@@ -37,7 +38,7 @@ export const Form = ({
         </div>
       </div>
       <button type="submit" className="btn">
-        Submit <MdSend className="btn-icon" />
+        {edit ? "edit" : "submit"} <MdSend className="btn-icon" />
       </button>
     </form>
   );
