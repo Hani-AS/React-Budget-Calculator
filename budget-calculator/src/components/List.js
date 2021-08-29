@@ -7,7 +7,7 @@ export const List = ({ expenses }) => {
     <>
       <ul className="list">
         {expenses.map((expense) => {
-          return <Item key={expense.id} expense={expenses} />;
+          return <Item key={expense.id} expense={expense} />;
         })}
       </ul>
       {expenses.length > 0 && (
