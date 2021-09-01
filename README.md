@@ -1,4 +1,4 @@
 # React-Budget-Calculator
 A calculator created with react
 
-[Link to deployed page](https://react-budget-calculator-hani.netlify.app)
+[Link to live page](https://react-budget-calculator-hani.netlify.app)
